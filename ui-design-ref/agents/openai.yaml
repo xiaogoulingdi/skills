@@ -1,0 +1,7 @@
+interface:
+  display_name: "UI Design Reference"
+  short_description: "Design-system-first, iterative UI planning before coding."
+  default_prompt: "Use $ui-design-ref to plan the UI design for this project before writing any application code."
+
+policy:
+  allow_implicit_invocation: true
