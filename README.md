@@ -17,6 +17,18 @@ skills/
       iteration-workflow.md
     scripts/
       generate_design.py
+  project-init-workshop/
+    SKILL.md
+    agents/
+      openai.yaml
+    references/
+      01-product-definition.md
+      02-execution-planning.md
+      03-design-experience.md
+      04-technical-decisions.md
+      05-process-norms.md
+    scripts/
+      scaffold_docs.py
 ```
 
 ## 已收录 Skills
@@ -24,6 +36,7 @@ skills/
 | Skill | 简介 | 状态 |
 | --- | --- | --- |
 | `ui-design-ref` | 产品开发前期的 UI 设计参考流程：先确定设计系统，再输出设计 tokens、组件清单和数据模型，最后进入实现。 | 初版 |
+| `project-init-workshop` | 新项目初始调研与文档编写流程：产品想法、范围、MVP、设计、UI flow、文案、技术方案、项目结构和 GitHub 工作流。 | 初版 |
 
 ## 添加新的 Skill
 

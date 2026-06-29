@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Project Init Workshop"
+  short_description: "Foundational docs workflow for zero-to-one project planning."
+  default_prompt: "Use $project-init-workshop to create the initial planning docs for this new project."
+
+policy:
+  allow_implicit_invocation: true
