@@ -29,17 +29,17 @@
 **Antipode branch strategy**: Lightweight Gitflow
 - main — stable, deployable
 - dev — daily integration
-- eature/* — new capabilities
+- feature/* — new capabilities
 - docs/* — documentation
-- ix/* — bug fixes
+- fix/* — bug fixes
 - hotfix/* — urgent main fixes
 
 Normal path: main → dev → feature/docs/fix branch → dev → main
 
 **Antipode commit examples**:
 - docs: add GitHub workflow guide
-- eat: add coordinate input
-- ix: handle invalid coordinates
+- feat: add coordinate input
+- fix: handle invalid coordinates
 - style: refine result card layout
 - test: add antipode calculation tests
 
