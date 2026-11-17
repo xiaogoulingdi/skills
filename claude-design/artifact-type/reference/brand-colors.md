@@ -1,7 +1,6 @@
 # Anthropic brand color system
 
-Source: the design team's anthropic-design skill `colors.css`
-(2025-12-11). Use these as inline-style values in .dc.html artboards.
+Use these as inline-style values in .dc.html artboards.
 
 ## Primary (the foundation — most surfaces are just these two)
 

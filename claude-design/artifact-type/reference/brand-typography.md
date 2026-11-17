@@ -1,9 +1,7 @@
 # Anthropic brand typography
 
-Source: the design team's anthropic-design skill `typography.css`
-(2025-12-11). Font FILES are deliberately not bundled here (see
-README.md); author the named family first with honest fallbacks —
-where Anthropic fonts aren't installed, the fallback stack renders.
+Font FILES are deliberately not bundled here; author the named family first
+with honest fallbacks — where the fonts aren't installed, the fallback stack renders.
 
 ## Stacks (use verbatim in inline styles)
 
