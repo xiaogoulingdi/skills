@@ -48,6 +48,19 @@ skills/
 | `project-init-workshop` | 新项目初始调研与文档编写流程：产品想法、范围、MVP、设计、UI flow、文案、技术方案、项目结构和 GitHub 工作流。 | 初版 |
 | `residential-exit-setup` | 家宽 VPS 出口接入与迁移：前置链路、分流、DNS、动态 IP、测试和回滚。 | 初版 |
 
+## 外部 Skills 索引：baoyu-design
+
+以下条目仅作来源与用途索引，**不包含 skill 的源码、参考资料或编辑器文件，也不能从本仓库安装**。它们与上方本仓库收录的 skills 分开列出。
+
+| Skill | 用途 | 来源 |
+| --- | --- | --- |
+| `claude-design` | 创建和修改可编辑的 Design 画布，在本地编辑器中查看和调整多个设计稿。 | 宝玉（Jim Liu）维护的 [baoyu-design](https://github.com/JimLiu/baoyu-design) 项目。 |
+| `claude-design-system` | 创建和修改本地设计系统，包括设计 tokens、组件预览、字体和品牌资源。 | 同上。 |
+
+**授权说明：** 这两个 skill 的本地版本声明为混合授权：维护者编写的本地工具部分采用 MIT；改编自 Anthropic 的技能说明、参考资料和编辑器内容不属于该 MIT 授权；其中的其他第三方代码各自遵循其原许可证。具体权利与再分发条件应以对应版本的原始声明和权利人授权为准，不能将整个 skill 视为 MIT。
+
+**上游状态：** 2026-11-17 检查时，原 `JimLiu/baoyu-design` 地址跳转到 `JimLiu/open-artifact`，页面显示仓库为空；本地 skill 中指向的原 `NOTICE.md` 也无法查看。上游可能改变，请以后重新核实，不要将以上历史情况当作永久状态。
+
 ## 添加新的 Skill
 
 后续添加 skill 时，直接在仓库根目录新增同名文件夹：
