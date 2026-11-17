@@ -38,6 +38,25 @@ skills/
       migration.md
       scenarios.md
       troubleshooting.md
+  claude-design/
+    SKILL.md
+    artifact-type/
+      reference/
+    scripts/
+      artifact.mjs
+      server.mjs
+      editor/
+        assets/          # 预构建的压缩产物，按原样保存，不要手改
+  claude-design-system/
+    SKILL.md
+    artifact-type/
+      demo.json
+      reference/
+    scripts/
+      artifact.mjs
+      server.mjs
+      editor/
+        assets/          # 同上
 ```
 
 ## 已收录 Skills
@@ -47,15 +66,12 @@ skills/
 | `ui-design-ref` | 产品开发前期的 UI 设计参考流程：先确定设计系统，再输出设计 tokens、组件清单和数据模型，最后进入实现。 | 初版 |
 | `project-init-workshop` | 新项目初始调研与文档编写流程：产品想法、范围、MVP、设计、UI flow、文案、技术方案、项目结构和 GitHub 工作流。 | 初版 |
 | `residential-exit-setup` | 家宽 VPS 出口接入与迁移：前置链路、分流、DNS、动态 IP、测试和回滚。 | 初版 |
+| `claude-design` | 可编辑的 Design 画布：生成 `project/canvas.json` 与多个 `.dc.html` 画板，在本地编辑器中并排查看和修改。 | 直接引用（见下节） |
+| `claude-design-system` | 本地设计系统：tokens、字体、组件预览与品牌资源，可在本地页面中浏览和编辑。 | 直接引用（见下节） |
 
 ## 直接引用的 Skills：claude-design 与 claude-design-system
 
 这两个 skill 直接从本地已安装的同名 skill 引用而来，内容原样收录，并非本仓库原创。
-
-| Skill | 用途 | 状态 |
-| --- | --- | --- |
-| `claude-design` | 创建和修改可编辑的 Design 画布，在本地编辑器中查看和调整多个设计稿。 | 直接引用 |
-| `claude-design-system` | 创建和修改本地设计系统，包括设计 tokens、组件预览、字体和品牌资源。 | 直接引用 |
 
 **授权说明：** 这两个 skill 的内容直接引用了上游同名 skill。原上游仓库（原 `JimLiu/baoyu-design`，后跳转至 `JimLiu/open-artifact`）现已不可访问，页面显示为空仓库，无法再从上游取得许可声明或授权条款。本仓库仅作个人私有使用，不公开发布、不对外分发；日后如要公开或再分发，应自行核实并补充相应的授权信息。
 
