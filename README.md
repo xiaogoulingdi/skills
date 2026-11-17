@@ -29,6 +29,15 @@ skills/
       05-process-norms.md
     scripts/
       scaffold_docs.py
+  residential-exit-setup/
+    SKILL.md
+    references/
+      checklist.md
+      current-hk-tw-example.md
+      local-routing.md
+      migration.md
+      scenarios.md
+      troubleshooting.md
 ```
 
 ## 已收录 Skills
@@ -37,6 +46,7 @@ skills/
 | --- | --- | --- |
 | `ui-design-ref` | 产品开发前期的 UI 设计参考流程：先确定设计系统，再输出设计 tokens、组件清单和数据模型，最后进入实现。 | 初版 |
 | `project-init-workshop` | 新项目初始调研与文档编写流程：产品想法、范围、MVP、设计、UI flow、文案、技术方案、项目结构和 GitHub 工作流。 | 初版 |
+| `residential-exit-setup` | 家宽 VPS 出口接入与迁移：前置链路、分流、DNS、动态 IP、测试和回滚。 | 初版 |
 
 ## 添加新的 Skill
 
