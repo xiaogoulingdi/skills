@@ -3,3 +3,6 @@
 *.yaml text eol=lf
 *.yml text eol=lf
 *.py text eol=lf
+# 预构建产物按原始字节保存，避免行尾归一化破坏校验或内联资源
+claude-design/scripts/** -text
+claude-design-system/scripts/** -text
